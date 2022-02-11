@@ -1,11 +1,12 @@
-.action__button {
+.price-card__order-btn {
   color: #FFFFFF;
   width: 154px;
   height: 40px;
   font-size: 14px;
   font-weight: 400;
   border-radius: 20px;
-  margin-top: 39px;
+  margin-top: 289px;
+  margin-left: 112px;
 }
 
 .card__arrow {
@@ -51,9 +52,8 @@
   background-color: #EC632A;
 }
 
-.cards {
+.price-tables {
   display: flex;
-  margin: auto;
   justify-content: center;
   align-items: center;
   width: 1400px;
@@ -61,29 +61,35 @@
   background-color: #141b1c;
 }
 
-.card {
+.card__dedicated {
+  background-color: #2A3438;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
   background-color: #334247;
   width: 380px;
   height: 770px;
   margin-right: 18px;
   text-align: center;
 }
-.card:last-child {
+.price-card:last-child {
   margin: 0;
 }
-.card__title {
-  font-size: 25px;
+.price-card__title {
+  font-size: 35px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 43px;
   margin-bottom: 0;
 }
-.card__subtitle {
+.price-card__subtitle {
   font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 24px;
   margin: 0;
 }
-.card__price {
+.price-card__price {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,21 +100,21 @@
   height: 105px;
   margin-top: 33px;
 }
-.card__description {
+.price-card__description {
   display: inline-block;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   margin: 40px 26px;
 }
-.card__list {
+.price-card__options-list {
   display: flex;
+  flex-direction: column;
   text-align: start;
   height: 50px;
 }
-.card__list-text {
-  display: inline-block;
-  vertical-align: middle;
+.price-card__options-list-item {
+  display: flex;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -122,10 +128,6 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #FFFFFF;
-}
-
-body {
-  height: 100vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

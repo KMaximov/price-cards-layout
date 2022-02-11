@@ -1,14 +1,18 @@
-.cards {
+.price-tables {
   display: flex;
-  margin: auto;
   justify-content: center;
   align-items: center;
   width: 1400px;
   height: 1000px;
   background-color: $color-page-background;
 }
+.card__dedicated {
+  background-color: $color-dedicated-card;
+}
 
-.card {
+.price-card {
+  display: flex;
+  flex-direction: column;
   background-color: $color-dark-grey;
   width: 380px;
   height: 770px;
@@ -18,15 +22,15 @@
     margin: 0;
   }
   &__title {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 43px;
     margin-bottom: 0;
   }
   &__subtitle {
     font-weight: 300;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 24px;
     margin: 0;
   }
   &__price {
@@ -47,14 +51,14 @@
     line-height: 18px;
     margin: 40px 26px;
   }
-  &__list {
+  &__options-list {
     display: flex;
+    flex-direction: column;
     text-align: start;
     height: 50px;
 
-    &-text {
-      display: inline-block;
-      vertical-align: middle;
+    &-item {
+      display: flex;
       font-weight: 300;
       font-size: 15px;
       line-height: 18px;
