@@ -68,6 +68,7 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   background-color: #334247;
   width: 380px;
   height: 770px;
@@ -119,6 +120,23 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
+}
+
+.lable__container {
+  position: relative;
+}
+
+.label__popular {
+  transform: rotate(45deg);
+  position: absolute;
+  font-size: 14px;
+  line-height: 17px;
+  background: #dc3f45;
+  width: 147px;
+  font-weight: 700;
+  line-height: 25px;
+  top: 25px;
+  right: -35px;
 }
 
 * {

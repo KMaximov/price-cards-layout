@@ -13,6 +13,7 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   background-color: $color-dark-grey;
   width: 380px;
   height: 770px;
@@ -65,13 +66,19 @@
       line-height: 18px;
     }
   }
-  // &__popular {
-  //   font-weight: 700;
-  //   font-size: 14px;
-  //   line-height: 17px;
-  //   width: 147px;
-  //   height: 25px;
-  //   background-color: $color-red;
-  //   transform: rotate(45deg);
-  // }
+}
+.lable__container {
+  position: relative;
+}
+.label__popular {
+  transform: rotate(45deg);
+  position: absolute;
+  font-size: 14px;
+  line-height: 17px;
+  background: #dc3f45;
+  width: 147px;
+  font-weight: 700;
+  line-height: 25px;
+  top: 25px;
+  right: -35px;
 }
