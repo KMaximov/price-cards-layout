@@ -1,0 +1,131 @@
+.action__button {
+  color: #FFFFFF;
+  width: 154px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 20px;
+  margin-top: 39px;
+}
+
+.card__arrow {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin: 18px 22px 19px 22px;
+}
+
+.arrow__blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.arrow__green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
+.arrow__orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+
+.button__blue {
+  background-color: #3A6BA5;
+}
+
+.blue__price {
+  background-color: #3A6BA5;
+}
+
+.button__green {
+  background-color: #5BB189;
+}
+
+.green__price {
+  background-color: #5BB189;
+}
+
+.orange__price {
+  background-color: #EC632A;
+}
+
+.button__orange {
+  background-color: #EC632A;
+}
+
+.cards {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  height: 1000px;
+  background-color: #141b1c;
+}
+
+.card {
+  background-color: #334247;
+  width: 380px;
+  height: 770px;
+  margin-right: 18px;
+  text-align: center;
+}
+.card:last-child {
+  margin: 0;
+}
+.card__title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.card__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+.card__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  height: 105px;
+  margin-top: 33px;
+}
+.card__description {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 40px 26px;
+}
+.card__list {
+  display: flex;
+  text-align: start;
+  height: 50px;
+}
+.card__list-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+body {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=styles.css.map */

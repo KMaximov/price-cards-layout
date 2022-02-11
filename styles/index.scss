@@ -1,11 +1,12 @@
-@import 'variables', 'common', 'body';
+@import 'variables', 'common', 'cards';
 * {
   box-sizing: border-box;
 }
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  width: 1400px;
-  height: 1000px;
-  background-color: $color-page-background;
+  color: $color-white;
+}
+body {
+  height: 100vh;
 }
