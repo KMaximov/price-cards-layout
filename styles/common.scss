@@ -9,10 +9,9 @@
   margin-left: 112px;
 }
 .card__arrow {
-  display: inline-block;
-  width: 15px;
-  height: 13px;
-  margin: 18px 22px 19px 22px;
+    width: 15px;
+    height: 13px;
+    margin: 18px 22px 19px 22px;
 }
 
 .arrow__blue {
@@ -24,21 +23,15 @@
 .arrow__orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
-.button__blue {
-  background-color: $color-blue;
-}
+.button__blue,
 .blue__price {
   background-color: $color-blue;
 }
-.button__green {
-  background-color: $color-green;
-}
+.button__green,
 .green__price {
   background-color: $color-green;
 }
-.orange__price {
-  background-color: $color-orange;
-}
+.orange__price,
 .button__orange {
   background-color: $color-orange;
 }

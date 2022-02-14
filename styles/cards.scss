@@ -6,10 +6,6 @@
   height: 100vh;
   background-color: $color-page-background;
 }
-.card__dedicated {
-  background-color: $color-dedicated-card;
-}
-
 .price-card {
   display: flex;
   flex-direction: column;
@@ -43,11 +39,9 @@
     font-size: 55px;
     line-height: 67px;
     text-align: center;
-    height: 105px;
     margin-top: 33px;
   }
   &__description {
-    display: inline-block;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
@@ -56,29 +50,33 @@
   &__options-list {
     display: flex;
     flex-direction: column;
-    text-align: start;
     height: 50px;
-
+    padding: 0;
+    margin: 0;
     &-item {
       display: flex;
+      align-items: center;
       font-weight: 300;
       font-size: 15px;
       line-height: 18px;
     }
   }
+  &__popular {
+    position: relative;
+    &-label {
+      position: absolute;
+      transform: rotate(45deg);
+      font-size: 14px;
+      line-height: 17px;
+      background: #dc3f45;
+      width: 147px;
+      font-weight: 700;
+      line-height: 25px;
+      top: 25px;
+      right: -35px;
+    }
+  }
 }
-.lable__container {
-  position: relative;
-}
-.label__popular {
-  transform: rotate(45deg);
-  position: absolute;
-  font-size: 14px;
-  line-height: 17px;
-  background: #dc3f45;
-  width: 147px;
-  font-weight: 700;
-  line-height: 25px;
-  top: 25px;
-  right: -35px;
+.list-item__dedicated {
+  background-color: $color-dedicated-card;
 }
