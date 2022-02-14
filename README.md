@@ -1,5 +1,5 @@
 # price-cards-layout
-## Site link
+## [Site link](https://kmaximov.github.io/price-cards-layout/index.html)
 
 ### The tech stack is:
   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
