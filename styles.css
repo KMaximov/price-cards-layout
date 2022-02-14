@@ -42,15 +42,6 @@
   background-color: #EC632A;
 }
 
-.price-tables {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #141b1c;
-}
-
 .price-card {
   display: flex;
   flex-direction: column;
@@ -135,6 +126,15 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #FFFFFF;
+}
+
+.price-tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */
