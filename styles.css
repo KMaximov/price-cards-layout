@@ -1,9 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.price-tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141b1c;
+}
+
 .price-card__order-btn {
   color: #FFFFFF;
   width: 154px;
   height: 40px;
   font-size: 14px;
   font-weight: 400;
+  border: none;
   border-radius: 20px;
   margin-top: 289px;
   margin-left: 112px;
@@ -116,25 +136,6 @@
 
 .list-item__dedicated {
   background-color: #2A3438;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  color: #FFFFFF;
-}
-
-.price-tables {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */

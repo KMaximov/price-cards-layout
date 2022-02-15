@@ -1,11 +1,10 @@
-@import 'variables', 'common', 'cards';
 * {
   box-sizing: border-box;
 }
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  color: $color-white;
+  color: #ffffff;
 }
 .price-tables {
   display: flex;
@@ -13,5 +12,6 @@ html {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: $color-page-background;
+  background-color: #141b1c;
 }
+@import 'variables', 'common', 'cards';
